@@ -11,9 +11,9 @@ const embed = new Discord.MessageEmbed()
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 .setTitle(`**Links**`)
 .setDescription(`
-[Invite Me](linke bott dane)
+[Invite Me](https://discord.com/api/oauth2/authorize?client_id=901605957757452318&permissions=8&scope=bot)
 -
-[Support Server](linke servert)
+[Support Server](https://discord.gg/GzXHT9BCpp)
 `)
 .setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))    
 message.channel.send({embed});
